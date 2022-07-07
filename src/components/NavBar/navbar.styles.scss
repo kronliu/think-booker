@@ -1,0 +1,91 @@
+.navbar {
+  padding: 10px 7% 10px;
+}
+
+.nav-item {
+  display: inline-block;
+  padding: 10px 15px;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #616161;
+  text-align: center;
+  transition: all 0.15s;
+  background-color: transparent;
+  height: inherit;
+  border-color: transparent;
+}
+
+.nav-item:hover {
+  background-color: #eeeeee;
+  cursor: pointer;
+}
+
+.nav-item:active,
+.nav-item:focus {
+  background-color: #eeeeee;
+  outline-color: transparent;
+  border-color: transparent;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 50px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-show {
+  display: block;
+}
+
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 0px solid #888;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+}
+
+.login-button {
+  display: inline-block;
+  padding: 0.5em 3em;
+  border: 0.1em solid #ffffff;
+  margin: 0 0.3em 0.3em 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #0097a7;
+  text-align: center;
+  transition: all 0.15s;
+  background-color: transparent;
+  border-color: #0097a7;
+}
+.login-button:hover,
+.login-button:focus {
+  outline: solid;
+  outline-color: #2193b0;
+  outline-width: 0.08rem;
+  background-color: #e6fdff;
+  cursor: pointer;
+}
+.login-button:active {
+  outline: solid;
+  outline-color: #2193b0;
+  outline-width: 0.08rem;
+}

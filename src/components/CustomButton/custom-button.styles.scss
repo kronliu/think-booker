@@ -1,0 +1,29 @@
+.custom-button {
+  background-image: linear-gradient(
+    to right,
+    #2193b0 0%,
+    #62bcd1 51%,
+    #2193b0 100%
+  );
+}
+.custom-button {
+  padding: 10px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  display: block;
+  border: none;
+}
+
+.custom-button:hover,
+.custom-button:focus,
+.custom-button:active {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
